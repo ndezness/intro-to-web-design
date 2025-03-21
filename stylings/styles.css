@@ -1,0 +1,106 @@
+#navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: whitesmoke;
+    border-bottom: 1px solid #ddd;
+}
+
+#logo-img {
+    display: block;
+    margin-right: auto;
+    margin-left: 0;
+    padding: 0;
+
+}
+
+#a{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+#nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background-color: #ddd;
+    padding: 20px;
+    margin: 0;
+}
+
+#nav-links li {
+    display: inline;
+}
+
+#nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#nav-links a:hover {
+    color: #a67c52;
+}
+
+#shop-button {
+    border: 2px solid black;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#shop-button:hover {
+    background-color: black;
+    color: white;
+    text-align: right;
+}
+
+#nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    float: right;
+}
+
+#nav-buttons i {
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#nav-buttons i:hover {
+    color: #a67c52;
+}
+
+#main{ 
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    color:violet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h2{
+    color: violet;
+    text-align: left;
+}
+
+#main{
+    width: 80%;
+    margin: 0 auto;
+}
