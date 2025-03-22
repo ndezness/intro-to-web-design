@@ -6,6 +6,17 @@
     background-color: whitesmoke;
     border-bottom: 1px solid #ddd;
 }
+#footer{
+    background-color: whitesmoke;
+    padding: 15px 40px;
+    border-top: 1px solid;
+    li{
+        text-align: right;
+       }
+}
+h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 #logo-img {
     display: block;
@@ -103,4 +114,10 @@ h2{
 #main{
     width: 80%;
     margin: 0 auto;
+}
+h3 {
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:orchid;
+    text-align: right;
 }
